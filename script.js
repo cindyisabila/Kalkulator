@@ -121,7 +121,6 @@ inputDecimal = (dot) => {
 }
 
 const decimal = document.querySelector(`decimal`)
-
 decimal.addEventListener(`click`, (event) => {
   inputDecimal(event.target.value)
   updateScreen(currentNumber)
